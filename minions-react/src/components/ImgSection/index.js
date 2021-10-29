@@ -1,8 +1,8 @@
 import "./style.css";
 
-function ImgSection ({imgInterna, styles}){ 
+function ImgSection ({imgInterna, styles, arrImgInterna, src}){ 
     return (
-        <img  style={styles} className='img-interna' src={imgInterna} alt=''/>
+        <img  style={styles} className='img-interna' src={imgInterna || src} alt=''/>
     )
 }
 
