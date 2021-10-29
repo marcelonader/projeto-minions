@@ -1,0 +1,21 @@
+.title-typing{
+  color: #fff;
+
+  font-size: clamp(1.75rem, 3vw, 4rem);
+  text-shadow: 1px 1px 5px black;
+}
+
+
+.title-typing::after{
+  content: "|";
+  margin-left: .6rem;
+  animation: barraPiscando .8s steps(15)infinite normal;
+}
+@keyframes barraPiscando {
+  0%, 100% {
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+}
