@@ -18,7 +18,6 @@ import Section from './components/Section'
 import ImgSection from './components/ImgSection'
 import Paragrafo from './components/Paragrafo'
 import ParagrafoFooter from './components/ParagrafoFooter';
-import RedesSociais from './components/RedesSociais';
 import SectionWithButton from './components/SectionWithButton'
 
 function App() {
